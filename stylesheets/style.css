@@ -1,0 +1,102 @@
+*{
+  outline: dashed 1px red;
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  height: 100%;
+  width: 950px;
+  background: #2e5173;
+  padding: 10px;
+  overflow: hidden;
+
+}
+.top,.middle,.bottom{
+  display: block;
+}
+.top{
+height: 460px;
+width: 930px;
+}
+.middle{
+  height: 220px;
+  width: 930px;
+  background: white;
+}
+
+
+.bottom{
+  height: 100px;
+  width: 930px;
+  /*background: #38628d;*/
+}
+.top_1,.top_2,.top_3,.top_4,.top_5,.top_6,.middle_1,.middle_2,.middle_3,.middle_4{
+  background: pink;
+  display: inline-block;
+  margin: 10px;
+
+}
+.top_1{
+  height: 94px;
+  width: 313px;
+
+}
+.top_2{
+  height: 100px;
+  width: 270px;
+  margin-left: 300px;
+}
+
+.top_3{
+  height: 45px;
+  width: 830px;
+  margin-left: 83px;
+  margin-top: 31px;
+}
+
+.top_4{
+  height: 200px;
+  width: 170px;
+  margin-top: 29px;
+  margin-left:100px;
+  vertical-align: top;
+}
+
+.top_5{
+  height: 90px;
+  width: 605px;
+  margin-top: 17px;
+  margin-left: 28px;
+}
+/*margin-top for .top_6 is from the tallest div next to it and margin-left is from the wrapper.*/
+.top_6{
+  height: 137px;
+  width: 380px;
+  margin-top: -131px;
+  margin-left: 428px;
+}
+
+
+.middle_1,.middle_2{
+  height: 5px;
+  width: 380px;
+}
+.middle_3,.middle_4{
+  height: 190px;
+  width: 380px;
+  margin-top: 0;
+}
+.middle_3,.middle_1{
+  margin-left: 93px;
+}
+.middle_1,.middle_2{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.middle_4,.middle_2{
+  margin-left: 15px;
+}
+#logo{
+  height: 100%;
+  width: 100%;
+}
